@@ -23,69 +23,39 @@ class MyApp extends StatelessWidget {
 
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'its my devloper world'),
+      home: Scaffold(
+        backgroundColor: Colors.black,
 
-    );
-  }
-}
+        body: Center(
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+          child: Column(
+
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: <Widget>[
+              Text(
+                'rohan\n\n\n'
+                    'kishore\n\n\n'
+                    'nayak\n ',
+
+                style: TextStyle( fontSize: 50,color: Colors.orange ,decoration: TextDecoration.underline,decorationColor: Colors.white),
 
 
 
-  final String title;
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
+              ),
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 100;
+            ],
+          ),
 
-  void _incrementCounter() {
-    setState(() {
-
-      _counter--;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-
-    return Scaffold(
-      backgroundColor: Colors.black,
-      appBar: AppBar(
-
-        backgroundColor: Theme.of(context).colorScheme.onError ,
-
-        title: Text(widget.title),
-      ),
-      body: Center(
-
-        child: Column(
-
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'rohan\n\n'
-              'kishore\n\n'
-              'nayak\n ',
-              style: TextStyle( fontSize: 50,color: Colors.orange),
-
-            ),
-            Text(
-              '$_counter',
-              style: TextStyle( fontSize: 50,color: Colors.cyan),
-            ),
-          ],
         ),
+
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'decrement',
-        child: const Icon(Icons.padding),
-      ),
+
     );
   }
 }
+
+
+
+
+
