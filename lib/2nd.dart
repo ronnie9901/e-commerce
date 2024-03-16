@@ -17,9 +17,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.red,
           centerTitle: true,
-          leading: Icon(Icons.menu),
+          leading: Icon(Icons.menu,color: Colors.white,),
           title: Text('Flutter App',style: TextStyle(color: Colors.white),),
-          actions: [Icon(Icons.more_vert), ],
+
+
         ),
         body: Center(
           child: Column(
