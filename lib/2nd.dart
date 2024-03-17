@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           leading: Icon(Icons.menu,color: Colors.white,),
           title: Text('Flutter App',style: TextStyle(color: Colors.white),),
+          actions: [Icon(Icons.search,color: Colors.white,),
+                   Icon(Icons.more_vert,color: Colors.white,)],
 
 
         ),
