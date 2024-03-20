@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,23 +18,21 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.red,
           centerTitle: true,
           leading: Icon(Icons.menu,color: Colors.white,),
-          title: Text('Flutter App',style: TextStyle(color: Colors.white),),
+          title: Text('MyRNW',style: TextStyle(color: Colors.white),),
           actions: [Icon(Icons.search,color: Colors.white,),
             Icon(Icons.more_vert,color: Colors.white,)],
-
-
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              const Text(
-                '  Red & White Group of institude:\n'
-                    'One Step in Changing Education Chain...',
-                style: TextStyle(fontSize: 18,color: Colors.red),
-              ),
+          child: Text.rich(
+            TextSpan(
+              children:[
+                TextSpan(text: 'Red & White\n',style: TextStyle(fontSize: 60,fontWeight:FontWeight.bold,color: Colors.red,decoration: TextDecoration.underline,decorationColor: Colors.red,decorationThickness: 2)),
+                TextSpan(text: '      Multimedia Education\n',style: TextStyle(fontSize: 27,fontWeight:FontWeight.bold,color: Colors.red)),
+                TextSpan(text: '  Shaping "skill" for "scaling" higher...!!!',style: TextStyle(fontSize: 20,fontWeight:FontWeight.bold,color: Colors.red)),
+              ],
 
-            ],
+            ),
+
           ),
         ),
       ),
