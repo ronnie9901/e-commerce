@@ -4,6 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
@@ -34,7 +35,7 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align="center">
-  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/6acb53aa-c1c8-479a-a86f-0f1f84542f4f"  />
+  <img height="550" src="https://github.com/ronnie9901/first_project/assets/148763509/9a009278-98d0-4169-b141-dd2456f1656e"  />
 </div>
 
 ###
