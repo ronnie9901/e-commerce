@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         home: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.blue,
-            centerTitle: false,
+            backgroundColor: Colors.green,
+            centerTitle: true,
 
-            title: Text(' Flutter RichText ',style: TextStyle(color: Colors.white,fontWeight:FontWeight.bold),),
+            title: Text(' 🛍️ List of Fruits ',style: TextStyle(color: Colors.white,fontWeight:FontWeight.bold),),
 
           ),
           body: Center(
